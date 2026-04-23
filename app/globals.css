@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  border-color: rgb(30 41 59 / 1);
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: #0d1117;
+}
+
+body {
+  font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+}
+
+code,
+pre,
+.font-mono {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
